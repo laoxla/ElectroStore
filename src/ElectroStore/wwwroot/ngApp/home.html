@@ -1,4 +1,11 @@
 <h2>Home</h2>
-<p>
-    {{controller.message}}
-</p>
+
+
+<div class="row">
+    <div ng-repeat="list in controller.productList" class="col-sm-6 col-md-4">
+        <img src="{{list.photo}}" />
+        <div>{{list.price}}</div>
+        <!--<img src="..\images\L16948363.jpg" />-->
+    </div>
+</div>
+>
